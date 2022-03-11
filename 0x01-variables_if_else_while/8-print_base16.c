@@ -10,7 +10,7 @@ int main(void)
 {
 	int alp;
 
-	for (alp = 0 ; alp <= 16 ; alp++)
+	for (alp = 0 ; alp < 16 ; alp++)
 	{
 		if (alp < 10)
 		{
