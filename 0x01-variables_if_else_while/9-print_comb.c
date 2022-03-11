@@ -13,8 +13,8 @@ int main(void)
 	for (alp = 0 ; alp < 10 ; alp++)
 	{
 		putchar(alp + '0');
+		putchar(',');
 	}
-	putchar(',');
 	putchar(' ');
 	putchar('\n');
 	return (0);
