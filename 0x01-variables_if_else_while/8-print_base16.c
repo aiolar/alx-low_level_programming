@@ -15,7 +15,7 @@ int main(void)
 		putchar(alp + '0');
 		if (alp > 9)
 		{
-			putchar("%x");
+			putchar(alp - 48);
 		}
 	}
 	putchar('\n');
