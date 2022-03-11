@@ -13,8 +13,14 @@ int main(void)
 	for (alp = 0 ; alp < 10 ; alp++)
 	{
 		putchar(alp + '0');
-		putchar(',');
-		putchar(' ');
+		if (alp == 9)
+		{
+			continue;
+		}
+		else
+		{	putchar(',');
+			putchar(' ');
+		}
 	}
 	return (0);
 }
