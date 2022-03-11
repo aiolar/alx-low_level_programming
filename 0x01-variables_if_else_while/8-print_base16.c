@@ -12,8 +12,11 @@ int main(void)
 
 	for (alp = 0 ; alp <= 16 ; alp++)
 	{
-		putchar(alp + '0');
-		if (alp > 9)
+		if (alp < 10)
+		{
+			putchar(alp + '0');
+		}
+		else if (alp > 9)
 		{
 			putchar(alp + 97 - 10);
 		}
