@@ -15,10 +15,10 @@ void print_alphabet_x10(void)
 	while (counter < 10)
 	{
 		for (i = 0 ; i < 26 ; i++)
-			{
-				_putchar(c + i);
-			}
-			_putchar('\n');
-			counter++;
+		{
+			_putchar(c + i);
+		}
+		_putchar('\n');
+		counter++;
 	}
 }
