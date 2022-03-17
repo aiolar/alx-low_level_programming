@@ -9,7 +9,7 @@
 void more_numbers(void)
 {
 	int i, k;
-	
+
 	k = 0;
 	while (k < 15)
 	{
