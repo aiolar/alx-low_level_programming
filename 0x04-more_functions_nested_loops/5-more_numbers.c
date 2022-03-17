@@ -9,7 +9,7 @@
 
 void more_numbers(void)
 {
-	int i;
+	int i, k;
 
 	while (k < 15)
 	{
@@ -24,5 +24,4 @@ void more_numbers(void)
 		_putchar('\n');
 		k++;
 	}
-	return (0);
 }
