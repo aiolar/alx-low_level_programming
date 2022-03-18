@@ -2,7 +2,6 @@
 
 /**
  * main - tests for positive or nrgatve
- *
  * Return: 0
  */
 
