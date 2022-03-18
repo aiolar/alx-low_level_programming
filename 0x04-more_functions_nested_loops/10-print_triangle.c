@@ -9,12 +9,12 @@
 
 void print_triangle(int size)
 {
-	int a, b, c, d;
+	int i, z, d, p;
 
-	if (size>0)
+	if (size > 0)
 	{
 		d = size - 1;
-		for (i=0; i < size; i++)
+		for (i = 0; i < size; i++)
 		{
 			for (z = d; z > 0; z--)
 			{
@@ -22,7 +22,7 @@ void print_triangle(int size)
 			}
 			for (p = 0; p <= i; p++)
 			{
-				_putchar(35)'
+				_putchar(35);
 			}
 			d--;
 			_putchar('\n');
