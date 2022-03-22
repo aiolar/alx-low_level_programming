@@ -7,7 +7,7 @@
  * Return: On success 1.
  */
 
-void rev(char *s)
+void rev_string(char *s)
 {
 	int i, max, half;
 	char first, last;
