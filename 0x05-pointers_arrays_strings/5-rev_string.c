@@ -17,8 +17,7 @@ void rev(char *s)
 	{
 		i++;
 	}
-	printf("%d\n", i);
-	max = i - 1
+	max = i - 1;
 	half = max / 2;
 	while (half >=0)
 	{
